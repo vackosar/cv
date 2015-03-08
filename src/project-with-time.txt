@@ -1,0 +1,43 @@
+Physter Technology	
+Projekt	ČSSZ Exekuce
+Pozice	Java Developer
+Popis	Podpora a drobný vývoj 600 000 řádkového kódu.
+Časové údobí	2014 – současnost
+Technologie	JSF, JBoss 4, SQL, SOAP
+
+
+Physter Technology	
+Projekt	RMS
+Pozice	Java Developer
+Popis	Detail design, vývoj a dokumentace ve formě interface agreementů a servisních specifikací.
+Časové údobí	Červen 2014
+Technologie	JBoss EAP 6.1, EJB 2.1, Remoting, IA, SeSp, DD, Hybernate
+
+
+Physter Technology	
+Projekt	Konsolidace Provisioningu
+Pozice	Java Developer
+Popis	Vývoj a užití migračního nástroje dat v PL/SQL. Vývoj testovacího nástroje pro porovnání SOAP s použitím Java a jMeter.
+Časové údobí	Leden-Červen 2014
+Technologie	Oracle PL/SQL Developer, SOAP, Oracle SQL Developer, jMeter, BeanShell
+
+Physter Technology	
+Projekt	Wolters Kluwer Middleware
+Pozice	Java Developer 
+Popis	Vývoj na Middleware projektu.
+Časové údobí	Únor 2014
+Technologie	JBoss 7, PGAdmin, Webservice, SOAP, Java EE, CDI, Hybernate
+
+Physter Technology	
+Projekt	Facicash
+Pozice	Java Developer
+Popis	Vývoj a podpora cashflow aplikace.
+Časové údobí	Duben-Prosinec 2013
+Technologie	Spring, JSP, Tomcat, Hybernate, Microsoft SQL Server Management Studio Express
+
+Physter Technology	
+Projekt	RMS, Phoenix migrace na JBoss 7
+Pozice	Java Developer
+Popis	Migrace kódu z JBoss 4 na JBoss 7.
+Časové údobí	Duben-Červen 2013
+Technologie	JBoss 7, EJB 2.1, EJB 3, CMP

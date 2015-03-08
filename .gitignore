@@ -1,0 +1,4 @@
+**/*.pdf
+src/*.log
+src/*.aux
+src/*.out

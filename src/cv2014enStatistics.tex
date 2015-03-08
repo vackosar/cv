@@ -1,0 +1,172 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{V\' aclav} % Your first name
+\familyname{Ko\v sa\v r} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+%\email{vackosar@gmail.com}
+%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+\extrainfo{additional information}
+\photo[70pt][0.4pt]{foto1_large.png} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+
+
+%----------------------------------------------------------------------------------------
+%	OSOBNI INFO
+%----------------------------------------------------------------------------------------
+
+\section{Personal information}
+
+\cventry{Email}{vackosar@gmail.com}{}{}{}{}
+\cventry{LinkedIn}{cz.linkedin.com/pub/vaclav-kosar/63/558/477/}{}{}{}{}
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2012--2013}{Accepted on PhD}{Universit\' e de Montr\' eal}{Montreal, Canada}{Canceled after studying for one semester}{}
+\cventry{2010--2012}{Master's Degree, Mathematical physics }{FJFI, \v CVUT}{Praha}{}{}
+\cventry{2007--2010}{Bachelor's Degree, Experimental nuclear physics}{FJFI, \v CVUT}{Praha}{}{}
+\cventry{2003--2007}{High school (maturita), Digital telecommmunication technology}{SP\v SST Pansk\' a}{Praha}{}{}
+\cventry{2006}{Driving licence}{}{}{}{}
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Work experience}	
+Projects participated and skills earned as an Junior Software Developer @ Physter.com since March 2013:
+
+\textit{Enhancements of Resource Management System O2.cz:}\par
+\cventry{}{EJB 2.1}{}{}{}{}
+\cventry{}{Remoting}{}{}{}{}
+\cventry{}{JBoss EAP 6.1}{}{}{}{}
+\cventry{}{IA, SeSp, DD}{}{}{}{}
+
+
+\textit{Db migration for O2.cz:}\par
+\cventry{}{PL/SQL Developer}{}{}{}{}
+\cventry{}{SQL Developer}{}{}{}{}
+\cventry{}{jMeter}{}{}{}{}
+
+\textit{Enhancements of a middleware:}\par
+\cventry{}{PGAdmin}{}{}{}{}
+\cventry{}{Webservice, SOAP}{}{}{}{}
+\cventry{}{Java EE}{}{}{}{}
+\cventry{}{CDI}{}{}{}{}
+
+\textit{Migration from JBoss 4.0 to JBoss 7.2:}\par
+\cventry{}{EJB 2.1}{}{}{}{}
+\cventry{}{CMP}{}{}{}{}
+\cventry{}{EJB 3}{}{}{}{}
+\cventry{}{Hybernate}{}{}{}{}
+
+\textit{Enhancements and bug fixes of a cashflow prediction app:}\par
+\cventry{}{Tomcat}{}{}{}{}
+\cventry{}{Spring}{}{}{}{}
+\cventry{}{Microsoft SQL Server Management Studio Express}{}{}{}{}
+
+\textit{Tools and utils:}\par
+\cventry{}{Posix shell (bash)}{}{}{}{}
+\cventry{}{Ant}{}{}{}{}
+\cventry{}{Eclipse}{}{}{}{}
+\cventry{}{CVS}{}{}{}{}
+\cventry{}{Jenkins}{}{}{}{}
+\cventry{}{SOAP UI}{}{}{}{}
+
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cventry{fluent}{English}{2005, FCE (ESOL Examinations, Cambridge, Grade C)}{}{}{}{}
+\cventry{basic}{Spanish}{2010, 2 year course during studies for bachelor's degree}{}{}{}{}
+\cventry{basic}{French}{3 month course during studies in Montreal, Canada}{}{}{}{}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+
+%\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+\cvlistdoubleitem{Programming}{Electronics}
+\cvlistdoubleitem{Football}{Traveling}
+\cvlistdoubleitem{Hiking}{Mathematics}
+\cvlistdoubleitem{Physics}{}
+
+
+
+\begin{thebibliography}{99}
+
+%        \bibitem{web_ms} [1], PHP, HTML, design of new json-driven database (SQL not available) \par
+%                 \url{http://www.crm.umontreal.ca/~physmath/labweb/main.php}
+
+
+        \bibitem{app_gp} [1], Java, XML, Eclipse, Android app on Google Play, Search based launcher, \par
+                 \url{https://play.google.com/store/apps/details?id=com.ideasfrombrain.search_based_launcher_v2}\par
+		 \url{https://github.com/ideasfrombrain/search-based-launcher-v2}
+        \bibitem{mat_th} [2], Asembler, Microchip PIC, High school thesis: Hardware Omega Server, \par
+                \url{http://www.panska.cz/files/ukazky-praci/dgt-gst/hardwarovy-omega-server.pdf}
+
+\end{thebibliography}
+
+
+
+
+
+\end{document}
